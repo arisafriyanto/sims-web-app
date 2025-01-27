@@ -2,7 +2,7 @@
 
 use App\Exports\ProductsExport;
 use App\Http\Controllers\Auth\{LoginController, LogoutControllers};
-use App\Http\Controllers\{ProductController, ProductExportController, ProfileController};
+use App\Http\Controllers\{ProductController, ProfileController};
 use Illuminate\Support\Facades\Route;
 
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
